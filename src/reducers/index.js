@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux';
-import checkoutPrice from './checkoutPrice';
+import cartQtyReducer from './cartQty';
+import menuListReducer from './menuList';
 
 const store = combineReducers(
     {
-        checkoutPrice
+        cartQtyState: cartQtyReducer,
+        menuListReducer
     }
 );
 

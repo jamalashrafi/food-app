@@ -1,0 +1,4 @@
+export const GET_CART_QTY = 'GET_CART_QTY';
+export const INCREASE_CART_QTY = 'INCREASE_CART_QTY';
+export const GET_MENU_ITEMS = 'GET_MENU_ITEMS';
+export const INCREASE_ITEM_QTY = 'INCREASE_ITEM_QTY';
