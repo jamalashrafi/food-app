@@ -3,8 +3,7 @@ import menuItem from './DisplayMenuItems.module.css';
 
 const DisplayMenuItems = (props) => {
     const increaseQty = (e) => {
-        debugger
-        props.increaseItemQty(props.menu.Name);
+        props.increaseItemQty(props.menu);
     }
     return (
         <div className={menuItem['style-menu-items']}>

@@ -1,0 +1,14 @@
+.div-container-amt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-container-btn{
+    text-align: right;
+}
+button {
+    padding: auto 10px;
+}
+.btn-close {
+    margin-right: 5px;
+}
